@@ -347,4 +347,5 @@ def test_async():
     
 
 if __name__ == '__main__':
-    uvicorn.run(app, debug='true')
+    # uvicorn.run(app, debug='true')
+    uvicorn.run(app, host='0.0.0.0', port=5000, debug='true')

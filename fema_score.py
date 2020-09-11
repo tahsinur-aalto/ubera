@@ -492,6 +492,7 @@ class FEMA:
 
 
 if __name__ == "__main__":
+    pass
     # dict_result = process_folder('samples')
     # print(dict_result)
 
